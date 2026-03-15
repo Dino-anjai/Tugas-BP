@@ -66,7 +66,6 @@ public class TokoSaya3 {
                     switch(choice3){
                         case 1 :
                             // add pembeli
-                            pembeli = new cPembeli ();
                             System.out.print("Masukkan Nama: ");
                             String n = sc.next();
                             System.out.println("Masukkan Alamat: ");
@@ -74,7 +73,7 @@ public class TokoSaya3 {
                             String i = String.format("USR%03d", counterID++);
                             System.out.println("User berhasil ditambahkan");
                             System.out.println("ID User: " + i);
-
+                            pembeli = new cPembeli (n,a,i);
   
                             break;
                         case 2 :
