@@ -70,7 +70,7 @@ public class TokoSaya3 {
                             String n = sc.next();
                             System.out.println("Masukkan Alamat: ");
                             String a = sc.next();
-                            String i = String.format("USR%03d", counterID++);
+                            Int i = Int.format("%03", counterID++);
                             System.out.println("User berhasil ditambahkan");
                             System.out.println("ID User: " + i);
                             pembeli = new cPembeli (n,a,i);
