@@ -11,6 +11,7 @@ public class cSales {
       total= qty*goods.getPrice();
   } 
   public void printSales (){
+      System.out.println("- - - - - - - - - - - - - - - -");
       System.out.println("Sale");
       System.out.println("Code   :"+code);
       System.out.println("Buyer  :"+pembeli.getName());
@@ -18,5 +19,6 @@ public class cSales {
       System.out.println("Quantity :"+qty);
       System.out.println("Price    :"+goods.getPrice());
       System.out.println("Total    :"+total);
+      System.out.println("- - - - - - - - - - - - - - - - ");
   }
 }

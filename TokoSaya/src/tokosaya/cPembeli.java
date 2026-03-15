@@ -17,6 +17,6 @@ public class cPembeli {
    public String getName (){return name;}
    public String getAddres (){return addres;}
    public String ToString(){
-       return "("+id+")"+name+" "+addres;
+       return "("+id+")"+ ","+name+","+addres;
    }
 }
